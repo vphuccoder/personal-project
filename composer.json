@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "post-install-cmd": "cd server;composer install;composer update; composer-rest-server -P 8080"
+    "post-install-cmd": ["php artisan clear-compiled", "chmod -R 777 server/public", "cd server;composer install;composer update; composer-rest-server -P 8080"]
   }
 }
