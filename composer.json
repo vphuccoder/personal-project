@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "post-install-cmd": "cd server;composer install;composer update"
+  }
+}
