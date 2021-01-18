@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "heroku-buildpack": "cd client && npm run install & npm start"
+  }
+}
