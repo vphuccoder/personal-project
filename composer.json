@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "post-install-cmd": "cd server;composer install;composer update"
+    "post-install-cmd": "cd server;composer install;composer update; composer-rest-server -P 8080"
   }
 }
